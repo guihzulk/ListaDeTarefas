@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.listadetarefas.activity.MainActivity">
+    <item
+        android:id="@+id/itemSalvar"
+        android:orderInCategory="100"
+        android:title="Salvar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_salvar_24"
+        />
+    <item
+        android:id="@+id/itemEditar"
+        android:orderInCategory="200"
+        android:title="Editar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemConfiguracao"
+        android:orderInCategory="300"
+        android:title="Configuração"
+        app:showAsAction="never" />
+</menu>
